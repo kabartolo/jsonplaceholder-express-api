@@ -4,7 +4,7 @@ This is a REST API application made with Express to retrieve data from [JSONPlac
 
 It currently provides only a `/users` route, corresponding to the `/users` endpoints from JSONPlaceholder.
 
-This Express API was created for use with [How to Generate Documentation for an Express API with Swagger UI and JSDoc](https://kabartolo.com/how-to-document-express-api-with-swagger).
+This Express API was created for use with [How to Generate Documentation for an Express API with Swagger UI and JSDoc](https://kabartolo.com/tutorials/how-to-document-express-api-with-swagger).
 
 ## Installation
 
