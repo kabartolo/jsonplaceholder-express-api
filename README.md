@@ -1,10 +1,8 @@
 # Express API for JSONPlaceholder
 
-This is a REST API application made with Express to retrieve data from [JSONPlaceholder](https://jsonplaceholder.typicode.com/).
+This is a REST API application made with Express. It retrieves user data from [JSONPlaceholder](https://jsonplaceholder.typicode.com/).
 
-It currently provides only a `/users` route, corresponding to the `/users` endpoints from JSONPlaceholder.
-
-This Express API was created for use with [How to Generate Documentation for an Express API with Swagger UI and JSDoc](https://kabartolo.com/tutorials/how-to-document-express-api-with-swagger).
+This Express API was created for [How to Generate Documentation for an Express API with Swagger UI and JSDoc](https://kabartolo.com/tutorials/how-to-document-express-api-with-swagger).
 
 ## Installation
 
@@ -14,25 +12,21 @@ First, clone the repository:
 git clone https://github.com/kabartolo/jsonplaceholder-express-api test-api 
 
 ```
-</CodeExample>
 
 Replace `test-api` with the directory name of your choosing.
 
-Then run the following commands to start the Express server:
-
-<CodeExample>
+Next, run the following commands to start the Express server:
 
 ```sh
 cd test-api
 npm install
-DEBUG=jsonplaceholder-express-api:* npm start
+npm run start
 
 ```
-</CodeExample>
 
-**Navigate** to `localhost:3000` to see the API. You should see links to `/users` and `/users/1`. Navigate to either of these to see user data from JSONPlaceholder.
+**Navigate** to `localhost:3000` to see the API. You should see links to `/users` and `/users/1`. Navigate to one of these to see user data from JSONPlaceholder.
 
-This API currently provides only a User resource, corresponding to the `/users` endpoints from JSONPlaceholder. You can use POST and DELETE with this route, but no changes are actually made to the JSONPlaceholder data. See the [usage examples](#usage-examples).
+This API currently provides a User resource only. It corresponds to the `/users` endpoints from JSONPlaceholder. You can use POST and DELETE with this route, but no changes are actually made to the JSONPlaceholder data, and none of your data is stored. See the [usage examples](#usage-examples) to start experimenting!
 
 ## Sample JSONPlaceholder User
 
@@ -64,9 +58,7 @@ This API currently provides only a User resource, corresponding to the `/users` 
 
 ## Usage Examples
 
-The following examples employ a base URL of `http://localhost:3000`, which is the default development server for Express. Modify the base URL as appropriate.
-
-The base path for this API is `/users`. 
+The following examples use a base URL of `http://localhost:3000`, which is the default development server for Express.
 
 **GET /users**
 
