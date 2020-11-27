@@ -18,8 +18,8 @@ router.get('/', function(req, res) {
 
 });
 
-router.get('/:userID', function(req,res) {
-  const userID = req.params.userID || '';
+router.get('/:id', function(req,res) {
+  const userID = req.params.id || '';
   const url = `${baseURL}/${userID}`;
 
   fetch(url)
@@ -51,8 +51,8 @@ router.post('/', function(req, res) {
   });
 });
 
-router.put('/:userID', function(req, res) {
-  const userID = req.params.userID || '';
+router.put('/:id', function(req, res) {
+  const userID = req.params.id || '';
   const url = `${baseURL}/${userID}`;
 
   fetch(url, {
@@ -71,8 +71,8 @@ router.put('/:userID', function(req, res) {
   });
 });
 
-router.delete('/:userID', function(req, res) {
-  const userID = req.params.userID || '';
+router.delete('/:id', function(req, res) {
+  const userID = req.params.id || '';
   const url = `${baseURL}/${userID}`;
 
   fetch(url, {
