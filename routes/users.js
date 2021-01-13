@@ -61,7 +61,7 @@ router.get('/', function(req, res) {
 
 /**
  * @swagger
- * /users/:id:
+ * /users/{id}:
  *   get:
  *     summary: Retrieve a single JSONPlaceholder user.
  *     description: Retrieve a single JSONPlaceholder user. Can be used to populate a user profile when prototyping or testing an API.
