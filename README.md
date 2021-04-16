@@ -2,7 +2,7 @@
 
 This is a REST API application made with Express. It retrieves user data from [JSONPlaceholder](https://jsonplaceholder.typicode.com/).
 
-This Express API was created for [How to Generate Documentation for an Express API with Swagger UI and JSDoc]https://dev.to/kabartolo/how-to-document-an-express-api-with-swagger-ui-and-jsdoc-50do).
+This Express API was created for [How to Generate Documentation for an Express API with Swagger UI and JSDoc](https://dev.to/kabartolo/how-to-document-an-express-api-with-swagger-ui-and-jsdoc-50do).
 
 ## Installation
 
